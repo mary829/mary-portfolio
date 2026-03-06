@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #020617;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px;
+}
+
+/* SKILLS */
+.bar {
+    background: #1e293b;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bar div {
+    height: 10px;
+    background: #38bdf8;
+}
+
+/* PROJECTS */
+.project {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+}
+
+/* ANIMATION */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
